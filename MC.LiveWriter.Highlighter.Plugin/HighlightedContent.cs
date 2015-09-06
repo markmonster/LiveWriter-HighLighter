@@ -9,7 +9,7 @@ namespace MC.LiveWriter.Highlighter.Plugin
     /// Plugin that works together with SyntaxHighlighter 3.0.83
     /// http://alexgorbatchev.com/SyntaxHighlighter/
     /// </summary>
-    [WriterPlugin("BF48545B-72FC-48CD-B241-BB2967E2EF01", "Code")]
+    [WriterPlugin("BF48545B-72FC-48CD-B241-BB2967E2EF01", "Code", ImagePath = "Code.gif")]
     [InsertableContentSource("Code", SidebarText = "Code")]
     public class HighlightedContent : SmartContentSource
     {
